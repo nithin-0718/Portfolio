@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vankudothu Nithin | AI & Full-Stack Developer Portfolio</title>
+    <meta name="description" content="Professional portfolio of Vankudothu Nithin, a Computer Science undergraduate specializing in AI/ML, Full-Stack Development, RAG systems, and LLM applications.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Ambient Backdrop Effects -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
+
+    <!-- Navigation Header -->
+    <header id="main-header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-bracket">&lt;</span>Nithin <span class="logo-accent">.AI</span><span class="logo-bracket">/&gt;</span>
+            </a>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#experience" class="nav-link">Education</a></li>
+                    <li><a href="#terminal" class="nav-link nav-terminal-btn"><i class="fa-solid fa-terminal"></i> AI Assistant</a></li>
+                    <li><a href="#contact" class="nav-link contact-btn">Let's Talk</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-nav-toggle" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="badge fade-in">
+                        <span class="badge-dot"></span> Available for Opportunities
+                    </div>
+                    <h1 class="hero-title fade-in">
+                        Hi, I'm <span class="gradient-text">Nithin</span> <br>
+                        I build <span id="typing-text" class="accent-text"></span><span class="cursor">|</span>
+                    </h1>
+                    <p class="hero-subtitle fade-in">
+                        Computer Science undergraduate specializing in **Retrieval-Augmented Generation (RAG)**, **Large Language Models (LLMs)**, and **AI-powered full-stack web applications**.
+                    </p>
+                    <div class="hero-cta fade-in">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore Projects <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#terminal" class="btn btn-secondary">
+                            Query RAG Bot <i class="fa-solid fa-robot"></i>
+                        </a>
+                    </div>
+                    <div class="social-links fade-in">
+                        <a href="https://github.com/nithin-0718" target="_blank" aria-label="GitHub" class="social-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/nithin-naik-416103354" target="_blank" aria-label="LinkedIn" class="social-icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:naik41452@gmail.com" aria-label="Email" class="social-icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </a>
+                        <span class="phone-link"><i class="fa-solid fa-phone"></i> +91 9347368846</span>
+                    </div>
+                </div>
+                <div class="hero-visual fade-in">
+                    <!-- Glassmorphic Resume Stat Cards -->
+                    <div class="hero-card card-top">
+                        <div class="card-icon cyan-icon"><i class="fa-solid fa-brain"></i></div>
+                        <div class="card-info">
+                            <h4>RAG Architectures</h4>
+                            <p>Vector Embeddings & Search</p>
+                        </div>
+                    </div>
+                    <div class="hero-card card-mid">
+                        <div class="card-icon purple-icon"><i class="fa-solid fa-code"></i></div>
+                        <div class="card-info">
+                            <h4>Full-Stack Apps</h4>
+                            <p>React, Node.js & TypeScript</p>
+                        </div>
+                    </div>
+                    <div class="hero-card card-bottom">
+                        <div class="card-icon green-icon"><i class="fa-solid fa-microchip"></i></div>
+                        <div class="card-info">
+                            <h4>Generative AI</h4>
+                            <p>Gemini API & LangGraph</p>
+                        </div>
+                    </div>
+                    <!-- Ambient floating geometric forms -->
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about" aria-label="Scroll Down">
+                    <span class="mouse-icon">
+                        <span class="wheel"></span>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <!-- About & Stats Section -->
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">01 // Profile</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text-wrapper">
+                        <p class="lead-text">
+                            I am a passionate Computer Science student dedicated to bridging the gap between full-stack web architectures and cutting-edge Artificial Intelligence.
+                        </p>
+                        <p>
+                            With solid academic backgrounds and practical, self-driven project builds, I've developed deep experience with full-stack frameworks and RAG system pipelines. I specialize in chunking strategies, embeddings, vector databases, and LLM integrations. My goal is to build secure, robust, and lightning-fast web services that feel intelligent and responsive.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">9.52</span>
+                                <span class="stat-label">Diploma CGPA</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">8.13</span>
+                                <span class="stat-label">B.Tech CGPA</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">3+</span>
+                                <span class="stat-label">Production AI Projects</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-interactive-card">
+                        <div class="card-header">
+                            <span class="dot-red"></span>
+                            <span class="dot-yellow"></span>
+                            <span class="dot-green"></span>
+                            <span class="terminal-title">quick_summary.py</span>
+                        </div>
+                        <div class="card-body python-console">
+                            <pre><code class="language-python"><span class="py-keyword">class</span> <span class="py-class">Developer</span>:
+    <span class="py-keyword">def</span> <span class="py-func">__init__</span>(self):
+        self.name = <span class="py-str">"Vankudothu Nithin"</span>
+        self.role = <span class="py-str">"AI & Fullstack Developer"</span>
+        self.location = <span class="py-str">"Hyderabad, IN"</span>
+        self.focus = [<span class="py-str">"Generative AI"</span>, <span class="py-str">"RAG Pipelines"</span>, <span class="py-str">"LLMs"</span>]
+
+    <span class="py-keyword">def</span> <span class="py-func">get_passion</span>(self):
+        <span class="py-keyword">return</span> <span class="py-str">"Developing systems that solve real problems using AI"</span>
+
+nithin = Developer()
+print(nithin.get_passion())
+<span class="py-comment"># Output: Developing systems that solve real problems using AI</span></code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Projects Section -->
+        <section id="projects" class="section-padding section-alt">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">02 // Engineering</span>
+                    <h2 class="section-title">Technical Projects</h2>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1: OpsMind AI -->
+                    <div class="project-card">
+                        <div class="project-card-image bg-gradient-cyan">
+                            <div class="project-overlay">
+                                <span class="project-type">Full-Stack RAG System</span>
+                            </div>
+                            <i class="fa-solid fa-file-shield project-banner-icon"></i>
+                        </div>
+                        <div class="project-card-content">
+                            <div class="project-tech-tags">
+                                <span>React.js</span>
+                                <span>Express</span>
+                                <span>Node.js</span>
+                                <span>TypeScript</span>
+                                <span>Gemini API</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <h3 class="project-card-title">OpsMind AI – SOP Agent</h3>
+                            <p class="project-card-description">
+                                A high-fidelity retrieval-augmented generation search system built for corporate Standard Operating Procedures (SOPs). Employs sentence-aligned PDF chunking strategies for maximum retrieval accuracy.
+                            </p>
+                            <ul class="project-bullets">
+                                <li>Implemented vector indexing using Gemini API embeddings and SSE streaming replies.</li>
+                                <li>Custom sentence-aligned chunking achieves 100% retrieval accuracy.</li>
+                                <li>Designed interactive UI with resizable sidebars, drag-and-drop ingestion, and inline citations.</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/nithin-0718/OpsMind-AI" target="_blank" class="project-link-btn">
+                                    <i class="fa-brands fa-github"></i> Source Code <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Extensio.ai -->
+                    <div class="project-card">
+                        <div class="project-card-image bg-gradient-purple">
+                            <div class="project-overlay">
+                                <span class="project-type">AI Chrome Extension Platform</span>
+                            </div>
+                            <i class="fa-solid fa-puzzle-piece project-banner-icon"></i>
+                        </div>
+                        <div class="project-card-content">
+                            <div class="project-tech-tags">
+                                <span>Node.js</span>
+                                <span>Express</span>
+                                <span>JavaScript</span>
+                                <span>OpenRouter API</span>
+                                <span>Docker</span>
+                            </div>
+                            <h3 class="project-card-title">Extensio.ai – AI Chrome Extension Generator</h3>
+                            <p class="project-card-description">
+                                A powerful AI automation web tool that transforms natural language prompts into complete, downloadable, ready-to-load Manifest V3 Chrome extensions.
+                            </p>
+                            <ul class="project-bullets">
+                                <li>Utilizes OpenRouter APIs for automated extension generation and code creation.</li>
+                                <li>Integrates custom verification routines to validate Manifest structures and JS syntax.</li>
+                                <li>Supports Docker containerized deployment and safe ZIP exports for quick distribution.</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/nithin-0718/Extensio.Ai-4G" target="_blank" class="project-link-btn">
+                                    <i class="fa-brands fa-github"></i> Source Code <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: YouTube Addiction Discovery -->
+                    <div class="project-card">
+                        <div class="project-card-image bg-gradient-emerald">
+                            <div class="project-overlay">
+                                <span class="project-type">Unsupervised Machine Learning</span>
+                            </div>
+                            <i class="fa-solid fa-chart-line project-banner-icon"></i>
+                        </div>
+                        <div class="project-card-content">
+                            <div class="project-tech-tags">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>NumPy</span>
+                                <span>Scikit-learn</span>
+                                <span>Matplotlib</span>
+                                <span>Streamlit</span>
+                            </div>
+                            <h3 class="project-card-title">YouTube Addiction Type Discovery System</h3>
+                            <p class="project-card-description">
+                                Data science tool that leverages unsupervised machine learning clustering models to analyze and classify user behaviors on YouTube to identify addiction indicators.
+                            </p>
+                            <ul class="project-bullets">
+                                <li>Feature engineered metrics: binge duration, session frequency, and night watches.</li>
+                                <li>Employs PCA and UMAP for dimensionality reduction and interactive data plots.</li>
+                                <li>Groups users into behavioral segments via K-Means and visualizes them on Streamlit dashboard.</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/nithin-0718/Youtube-WatchWise" target="_blank" class="project-link-btn">
+                                    <i class="fa-brands fa-github"></i> Source Code <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">03 // Tooling</span>
+                    <h2 class="section-title">Technical Expertise</h2>
+                </div>
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skill-category-card">
+                        <div class="skill-card-glow"></div>
+                        <div class="skill-category-header">
+                            <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+                            <h3>Languages</h3>
+                        </div>
+                        <div class="skill-list">
+                            <div class="skill-badge">C</div>
+                            <div class="skill-badge">C++</div>
+                            <div class="skill-badge">Java</div>
+                            <div class="skill-badge">Python</div>
+                            <div class="skill-badge">JavaScript</div>
+                            <div class="skill-badge">TypeScript</div>
+                            <div class="skill-badge">PHP</div>
+                        </div>
+                    </div>
+
+                    <!-- Web & Backend -->
+                    <div class="skill-category-card">
+                        <div class="skill-card-glow"></div>
+                        <div class="skill-category-header">
+                            <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
+                            <h3>Web & Backend</h3>
+                        </div>
+                        <div class="skill-list">
+                            <div class="skill-badge">HTML5 / CSS3</div>
+                            <div class="skill-badge">React.js</div>
+                            <div class="skill-badge">Node.js</div>
+                            <div class="skill-badge">Express.js</div>
+                            <div class="skill-badge">Spring Boot</div>
+                            <div class="skill-badge">REST APIs</div>
+                        </div>
+                    </div>
+
+                    <!-- AI / ML & Frameworks -->
+                    <div class="skill-category-card">
+                        <div class="skill-card-glow"></div>
+                        <div class="skill-category-header">
+                            <div class="skill-icon"><i class="fa-solid fa-gears"></i></div>
+                            <h3>AI & Data Science</h3>
+                        </div>
+                        <div class="skill-list">
+                            <div class="skill-badge">RAG Systems</div>
+                            <div class="skill-badge">LLMs</div>
+                            <div class="skill-badge">LangGraph</div>
+                            <div class="skill-badge">Google Gemini API</div>
+                            <div class="skill-badge">Scikit-Learn</div>
+                            <div class="skill-badge">NumPy / Pandas</div>
+                            <div class="skill-badge">TensorFlow</div>
+                            <div class="skill-badge">PCA / Clustering</div>
+                        </div>
+                    </div>
+
+                    <!-- Databases & Platforms -->
+                    <div class="skill-category-card">
+                        <div class="skill-card-glow"></div>
+                        <div class="skill-category-header">
+                            <div class="skill-icon"><i class="fa-solid fa-cubes"></i></div>
+                            <h3>Databases & Infrastructure</h3>
+                        </div>
+                        <div class="skill-list">
+                            <div class="skill-badge">MySQL</div>
+                            <div class="skill-badge">PostgreSQL</div>
+                            <div class="skill-badge">MongoDB</div>
+                            <div class="skill-badge">Git & GitHub</div>
+                            <div class="skill-badge">Docker</div>
+                            <div class="skill-badge">Firebase</div>
+                            <div class="skill-badge">IBM Cloud</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive AI Assistant Terminal -->
+        <section id="terminal" class="section-padding section-alt">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">04 // Interactive</span>
+                    <h2 class="section-title">Query Nithin's Resume</h2>
+                    <p class="section-desc">Experience an interactive simulated RAG search. Click a prompt below to retrieve information from his profile.</p>
+                </div>
+                <div class="terminal-container">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="dot-red"></span>
+                            <span class="dot-yellow"></span>
+                            <span class="dot-green"></span>
+                        </div>
+                        <div class="terminal-tab">
+                            <i class="fa-solid fa-robot"></i> nithin-rag-assistant.sh
+                        </div>
+                    </div>
+                    <div class="terminal-body" id="terminal-screen">
+                        <div class="terminal-line system-output">
+                            <span>Initializing local RAG Knowledge Base... [SUCCESS]</span>
+                        </div>
+                        <div class="terminal-line system-output">
+                            <span>Indexed Source: Vankudothu_Nithin_Resume.pdf</span>
+                        </div>
+                        <div class="terminal-line system-output">
+                            <span>Type your request or select one of the quick prompts below to begin.</span>
+                        </div>
+                        <!-- Dialog will stream here -->
+                    </div>
+                    <div class="terminal-prompts">
+                        <button class="prompt-chip" data-query="summary">Professional Summary</button>
+                        <button class="prompt-chip" data-query="opsmind">OpsMind AI Project</button>
+                        <button class="prompt-chip" data-query="extensio">Extensio.ai Project</button>
+                        <button class="prompt-chip" data-query="education">Education Timeline</button>
+                        <button class="prompt-chip" data-query="certifications">Certifications</button>
+                    </div>
+                    <div class="terminal-input-bar">
+                        <span class="terminal-prompt-char">$</span>
+                        <input type="text" id="terminal-user-input" placeholder="Type a custom query (e.g. 'skills' or 'contact')..." autocomplete="off">
+                        <button id="terminal-send-btn" aria-label="Send Query"><i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications Timeline -->
+        <section id="experience" class="section-padding">
+            <div class="container">
+                <div class="timeline-wrapper">
+                    <!-- Left Column: Education -->
+                    <div class="timeline-column">
+                        <div class="section-header">
+                            <span class="section-tag">// Background</span>
+                            <h3 class="timeline-col-title"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                        </div>
+                        <div class="timeline-list">
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-time">2024 -- 2027</div>
+                                <h4 class="timeline-title">B.Tech in Computer Science and Engineering</h4>
+                                <p class="timeline-subtitle">Gokaraju Rangaraju Institute of Engineering and Technology</p>
+                                <span class="timeline-grade">CGPA: 8.13</span>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-time">2021 -- 2024</div>
+                                <h4 class="timeline-title">Diploma in Computer Science and Engineering</h4>
+                                <p class="timeline-subtitle">Samskruti College of Engineering and Technology</p>
+                                <span class="timeline-grade">CGPA: 9.52</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Certifications -->
+                    <div class="timeline-column">
+                        <div class="section-header">
+                            <span class="section-tag">// Achievements</span>
+                            <h3 class="timeline-col-title"><i class="fa-solid fa-award"></i> Certifications</h3>
+                        </div>
+                        <div class="certifications-list">
+                            <div class="cert-card">
+                                <div class="cert-icon"><i class="fa-brands fa-ibm"></i></div>
+                                <div class="cert-info">
+                                    <h4>Cloud Computing Fundamentals</h4>
+                                    <p>IBM Provider Badge</p>
+                                </div>
+                            </div>
+                            <div class="cert-card">
+                                <div class="cert-icon"><i class="fa-solid fa-briefcase"></i></div>
+                                <div class="cert-info">
+                                    <h4>ServiceNow Admin & Agentic AI</h4>
+                                    <p>ServiceNow University Internship</p>
+                                </div>
+                            </div>
+                            <div class="cert-card">
+                                <div class="cert-icon"><i class="fa-solid fa-network-wired"></i></div>
+                                <div class="cert-info">
+                                    <h4>Introduction to Modern AI</h4>
+                                    <p>Cisco Networking Academy</p>
+                                </div>
+                            </div>
+                            <div class="cert-card">
+                                <div class="cert-icon"><i class="fa-solid fa-microchip"></i></div>
+                                <div class="cert-info">
+                                    <h4>Data Science for Engineers</h4>
+                                    <p>NPTEL (SWAYAM Portal)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding section-alt">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">05 // Connection</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-desc">Have a question or want to collaborate on an intelligent project? Reach out directly!</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info-cards">
+                        <!-- Direct Email -->
+                        <div class="contact-info-card">
+                            <div class="info-card-icon"><i class="fa-regular fa-envelope"></i></div>
+                            <div class="info-card-content">
+                                <h3>Email Address</h3>
+                                <a href="mailto:naik41452@gmail.com">naik41452@gmail.com</a>
+                                <p>Typically replies within 24 hours</p>
+                            </div>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="contact-info-card">
+                            <div class="info-card-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="info-card-content">
+                                <h3>Direct Phone</h3>
+                                <a href="tel:+919347368846">+91 9347368846</a>
+                                <p>Call or Message anytime</p>
+                            </div>
+                        </div>
+
+                        <!-- Location -->
+                        <div class="contact-info-card">
+                            <div class="info-card-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="info-card-content">
+                                <h3>Current Location</h3>
+                                <span>Hyderabad, Telangana, India</span>
+                                <p>Open to local & remote opportunities</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <form class="contact-form" id="portfolio-contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="form-name">Your Name</label>
+                                <input type="text" id="form-name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email">Your Email</label>
+                                <input type="email" id="form-email" placeholder="john@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-subject">Subject</label>
+                            <input type="text" id="form-subject" placeholder="Collaboration / Job Opportunity" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-message">Message</label>
+                            <textarea id="form-message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            Send Message <i class="fa-regular fa-paper-plane"></i>
+                        </button>
+                        <div class="form-status-msg" id="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Vankudothu Nithin. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/nithin-0718" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/nithin-naik-416103354" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:naik41452@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
